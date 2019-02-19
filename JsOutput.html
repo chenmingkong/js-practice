@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>output practice</title>
+</head>
+
+<body>
+    <h1>一些js输出的方式</h1>
+    <p id="one">hello</p>
+    <script>
+        document.getElementById("one").innerHTML = "方式一：操作HLML元素";
+        document.write("方式二：写到HTML文档");
+        window.alert("方式三：弹出警告框的方式输出");
+        console.log("方式四：控制台输出");
+
+    </script>
+    <button onclick="myFunction('Harry Potter','Wizard')">点击这里</button>
+    <script>
+        function myFunction(name, job) {
+            alert("Welcome " + name + ", the " + job);
+        }
+    </script>
+</body>
+
+</html>
